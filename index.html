@@ -14,15 +14,14 @@
         <div class="header__container__name">
           <img src="img/brain.png" alt="Brain" class="header__img" />
           <h1>Improve Your Memory</h1>
-          <!-- <a class="topGamer" href="players.html">Top players</a> -->
         </div>
       </div>
     </div>
 
     <div class="sidebar">
       <div class="sidebar__container">
-        <div class="gamer">Gamer 👉 <span id="gamerName"></span></div>
-        <div class="moves">Moves 👉 <span id="movesCalc"></span></div>
+        <div class="gamer">Gamer 👉 <span id="gamerName">?</span></div>
+        <div class="movesCounter">Moves 👉 <span id="movesCalc">0</span></div>
         <div class="timer">Time 👉 <span id="timeNode">00:00</span></div>
       </div>
     </div>
@@ -31,11 +30,19 @@
       <div class="main__container" id="cardContainer">
         <div class="players">
           <h3>Top players:</h3>
-          <div class="player" id="player">
-            <!-- to do from js -->
+          <div id="resultsContainer"></div>
+          <div class="data">
+            <div class="player" id="player">
+              <!-- to do from js -->
+            </div>
+            <div id="time">
+              <!-- to do from js -->
+            </div>
+            <div id="moves">
+              <!-- to do from js -->
+            </div>
           </div>
         </div>
-
         <div class="main__container__cards">
           <div class="main__container__cards__card" data-framework="card-7">
             <div class="front"></div>
@@ -158,6 +165,7 @@
         <a class="text-dark" href="">MemoryGame.com</a>
       </div>
     </footer>
-    <script src="js/game.js"></script>
+    <!-- <script src="js/game.js"></script> -->
+    <script src="js/script.js"></script>
   </body>
 </html>

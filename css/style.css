@@ -58,7 +58,7 @@ h1 {
   width: 300px;
 }
 
-.moves,
+.movesCounter,
 .timer,
 .gamer {
   color: #556b2f;
@@ -194,7 +194,6 @@ button:hover {
   margin-top: 10px;
   border: 4px solid rgb(200 210 104);
   position: absolute;
-  top: 150px;
   left: -50px;
   padding: 0 16px;
   min-width: 300px;
@@ -212,7 +211,6 @@ button:hover {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
-  padding: 10px;
   flex-direction: column;
 }
 
@@ -221,6 +219,8 @@ button:hover {
   font-size: 28px;
   font-family: cursive;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 .number {
@@ -231,4 +231,20 @@ button:hover {
 .moves__top,
 .timer__top {
   padding-right: 30px;
+}
+
+.result-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.player,
+.moves,
+.time {
+  color: #556b2f;
+  font-size: 16px;
+  font-family: cursive;
+  list-style-type: none;
+  padding: 5px 15px 5px 0;
 }
